@@ -11,7 +11,7 @@ public class KafkaTopicConfig {
     @Bean
     public NewTopic myTopic(){
         return new NewTopic(
-                "order-placed",
+                "my-topic",
                 3,
                 (short) 1
         );
