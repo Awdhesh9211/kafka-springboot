@@ -1,0 +1,56 @@
+### ======== BUILD OUTPUT ========
+/target/
+!/target/*.jar
+!/target/*.war
+
+/build/
+
+### ======== IDEs ========
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# VS Code
+.vscode/
+
+### ======== OS FILES ========
+.DS_Store
+Thumbs.db
+
+### ======== LOGS ========
+*.log
+logs/
+*.log.*
+
+### ======== MAVEN ========
+.mvn/wrapper/maven-wrapper.jar
+
+### ======== GRADLE ========
+.gradle/
+gradle-app.setting
+gradle-wrapper.jar
+
+### ======== ENV & SECRETS ========
+*.env
+application-*.yml
+application-*.properties
+
+### ======== DOCKER ========
+docker-compose.override.yml
+
+### ======== MISC ========
+*.swp
+*.swo
+*.tmp
+*.bak
+*.class
